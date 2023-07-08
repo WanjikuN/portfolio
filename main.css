@@ -99,3 +99,44 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 20px;
 }
+/* Skills */
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+#skills{
+    height: auto;
+    background-color:  #21222c;
+    color: white;
+    margin: 2%;
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+    
+   
+}
+#skills li{
+    list-style-type: none;
+    width: 90%;
+    border-radius: 5px 20px;
+    padding: 2%;
+    margin: 7%;
+}
+#skills li li:nth-child(odd){
+    border: 2px solid rgb(255, 89, 0);
+}
+#skills li li:nth-child(even){
+    border: 2px solid rgba(255, 213, 0, 0.837) ;
+}
+#devops{
+    display: flex;
+}
+#fullstack{
+    display: flex;
+}
+#skills p{
+    margin-top: 40%;
+    padding-left: 15%;
+    border: 1px solid black;
+}
