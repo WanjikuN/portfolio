@@ -49,7 +49,7 @@ body{
     
     
 }
-li .link1:hover, #contact1 a:hover{
+li .link1:hover{
     color: burlywood;
     font-size: 25px;
     border-bottom: 1px solid burlywood;
@@ -201,11 +201,21 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 100%;
 }
-#contact1 a, #contact1 h4{
+#contact1 a, #contact1 h4, p{
     text-decoration: none;
     color: white;
 }
 #contact #socials{
     flex-direction: row;
+}
+#contact1 a:hover{
+    color: burlywood;
+    font-size: 25px;
+    /* border-bottom: 1px solid burlywood; */
+    border-radius: 4px;
+    
+    
+    
 }
