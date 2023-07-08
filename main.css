@@ -187,6 +187,7 @@ p{
     justify-content: center;
     background-color: #1c1d25;
     padding: 3%;
+    align-items: center;
     /* flex-direction: column; */
     
        
@@ -201,7 +202,7 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 100%;
+    /* width: 100%; */
 }
 #contact1 a, #contact1 h4, p{
     text-decoration: none;
@@ -212,7 +213,7 @@ p{
 }
 #contact1 a:hover{
     color: burlywood;
-    font-size: 25px;
+    font-size: 18px;
     /* border-bottom: 1px solid burlywood; */
     border-radius: 4px;
     
