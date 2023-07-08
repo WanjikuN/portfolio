@@ -140,3 +140,42 @@ p{
     padding-left: 15%;
     border: 1px solid black;
 }
+/* Projects */
+#projects{
+    background: #d5d6df4d;
+    display: flex;
+    /* flex-wrap: wrap; */
+
+}
+#projects a{
+    text-decoration: none;
+    color: black;
+}
+#projects a:hover{
+    background-color: #21222c;
+    color: white;
+    border: 1px solid rgba(255, 213, 0, 0.837)
+}
+.projo{
+    /* height: 40vh; */
+    width:25%;
+    border: 1px solid white;
+    padding: 3%;
+    margin: 5px;
+    background-color: white;
+}
+/* .projo p{
+    bottom: 0px;
+} */
+@media screen and (max-width: 600px) {
+    #projects {
+      flex-direction: column;
+      overflow-y: auto;
+      /* padding-top: 0px; */
+    }
+    .projo{
+        width: 80%;
+        margin: 5%;
+    }
+    
+  }
