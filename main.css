@@ -150,11 +150,13 @@ p{
 #projects a{
     text-decoration: none;
     color: black;
+    border: 1px solid rgba(255, 213, 0, 0.837);
+
 }
 #projects a:hover{
     background-color: #21222c;
     color: white;
-    border: 1px solid rgba(255, 213, 0, 0.837)
+    border: 1px solid rgb(255, 89, 0);
 }
 .projo{
     /* height: 40vh; */
