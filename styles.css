@@ -1,0 +1,29 @@
+#about1{
+    background: #21222c;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 70px;
+    margin: 5%;
+    
+}
+#me{
+    width: 45%;
+    /* background-color: white; */
+    /* color: black; */
+}
+#resume{
+    width: 75%;
+}
+span{
+    color: rgba(255, 213, 0, 0.7);
+}
+#button2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+    
+}
+a:hover{
+    font-size: 40px;
+}
