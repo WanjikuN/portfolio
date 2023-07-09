@@ -8,6 +8,6 @@
 1. Positioning of skills on dropdown.
 ---
 ## Active link
-[Portfolio]('https://wanjikun.github.io/portfolio/')
+[Portfolio](https://wanjikun.github.io/portfolio/)
 
 
