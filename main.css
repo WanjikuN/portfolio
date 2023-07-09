@@ -27,7 +27,6 @@ body{
 
 }
 
-
 #header ul{
     list-style-type: none;
     padding-right: 25px;
@@ -171,6 +170,7 @@ p{
     bottom: 0px;
 } */
 @media screen and (max-width: 600px) {
+    /* screens with a maximum width of 600px */
     #projects {
       flex-direction: column;
       overflow-y: auto;
